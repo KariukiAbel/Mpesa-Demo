@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLaout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Agent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_marginTop="20px"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:textStyle="bold"
+        android:text="Enter Agent no" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:paddingLeft="50px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4-8 Digits (0-9,*,#,+)" />
+
+    <EditText
+        android:id="@+id/ed2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberPassword" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:onClick="Magent"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="150dp"
+        android:layout_marginLeft="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OK" />
+
+</LinearLaout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Act2">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_marginTop="20px"
+        android:onClick="click"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:text="Search SIM Contacts" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:onClick="next"
+        android:text="Enter phone no." />
+</LinearLayout>
